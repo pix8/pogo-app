@@ -1,0 +1,104 @@
+extends _master/_default
+
+block _masthead	
+	section.foobar
+		.container
+			h1 Hello <span class="style__uppercase">Pogo</span>.app
+			h2.style__no-margin-top Jump-start your application!
+			p An unopinionated stack for discerning development.
+
+		.container.ui__logo-grid
+			p
+				img.grid__logo(src="./svg/logo__webpack.svg")
+				img.grid__logo(src="./svg/logo__gulp.svg")
+			p
+				img.grid__logo(src="./svg/logo__babel.svg")
+				img.grid__logo(src="./svg/logo__react.svg")
+				img.grid__logo(src="./svg/logo__vue.svg")
+			p
+				img.grid__logo(src="./svg/logo__pug.svg")
+				img.grid__logo(src="./svg/logo__sass.svg")
+				img.grid__logo(src="./svg/logo__postcss.svg")
+
+block _content
+	section
+		.container
+			p.style__text-primary-colour.emphasize &gt;_
+			p
+				code npm install
+			ul.instructions
+				li README.md
+				li .editorconfig
+				li .gitignore
+				li .circleci
+				li .babelrc
+				li .eslintrc
+				li .postcssrc
+				li package.json
+				li Webpack (webpack.base.config.js + webpack.development.config.js | webpack.production.config.js)
+					p
+						code npm run webpack
+					ul
+						li Javascript ES5
+							ul(style="margin-top:10px;")
+								li Babel
+									ul(style="margin-top:10px;")
+										li Javascript ES6
+										li React (JSX/Styled Components inclusive)
+										li Vue (Pug/JSX/SASS inclusive)
+						li HTML
+							ul(style="margin-top:10px;")
+								li Pug
+								li JSX
+						li CSS
+							ul(style="margin-top:10px;")
+								li PostCSS
+									ul(style="margin-top:10px;")
+										li SASS
+						li Webfonts
+						li Static resources: Bitmaps/text/audio/video
+				li Gulp(gulpfile.js)
+					ul
+						li HTML
+							ul(style="margin-top:10px;")
+								li Pug
+								li JSX
+						li CSS
+							ul(style="margin-top:10px;")
+								li PostCSS
+									ul(style="margin-top:10px;")
+										li SASS
+						li SVG
+						li Webfonts
+						li Favicons
+						li Static resources: Bitmaps/text/audio/video
+				li BrowserSync | Webpackdevserver | Express
+				li
+					| Source (stage: development/maintenance)<br />
+					| src<br />
+					p
+						code npm start
+				li
+					| Testing (stage: quality assurance/code integrity)<br />
+					| test<br />
+					p
+						code npm run test
+				li
+					| Deployment (stage: release/distribution)<br />
+					| dist<br />
+					p
+						code npm run deploy
+
+		.container
+			#app--react
+
+		.container
+			#app--vue
+
+		.container
+			vueapp
+
+block _footer
+	section
+		.container
+			p Powered by pix'ie dust. Fuelled by tea. &copy; <a href="http://pix8.co.uk" target="_blank">pix8 Ltd</a> 2018.
