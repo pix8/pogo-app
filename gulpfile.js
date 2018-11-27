@@ -15,8 +15,9 @@ const	sass 					= require('gulp-sass'),
 		postcss					= require('gulp-postcss');
 
 const	webpack 				= require('webpack'),
-		//webpackConfig			= (ENV === 'development') ? require('./build/webpack.development.config') : require('./build/webpack.production.config'),
-		webpackConfig			= require('./webpack.config'),
+		//webpackConfig			= (ENV === 'development') ? require('./webpack.development.config') : require('./webpack.production.config'),
+		//webpackConfig			= require('./webpack.config'),
+		webpackConfig			= require('./webpack.development.config'),
 		webpackDevMiddleware 	= require('webpack-dev-middleware'),
 		webpackHotMiddleware 	= require('webpack-hot-middleware');
 

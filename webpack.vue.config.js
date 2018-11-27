@@ -7,7 +7,7 @@ const	VueLoaderPlugin				= require('vue-loader/lib/plugin')
 module.exports = {
 
 	resolve: {
-		extensions: ['*', '.js', '.jsx', '.vue', '.json'],
+		extensions: ['.vue'],
 				
 		alias: {
 			// 'src': path.resolve(__dirname, '/src/'),
