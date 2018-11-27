@@ -18,8 +18,6 @@ module.exports = {
 	devtool: '#eval-source-map',
 
 	entry: {
-		//'scripts/app.bundle': path.resolve(__dirname, './src/js/main.es6')
-
 		//browsersync
 		'scripts/app.bundle': ['webpack-hot-middleware/client?path=/__webpack_hmr&reload=true', path.resolve(__dirname, './src/js/index')]
 
@@ -34,8 +32,6 @@ module.exports = {
 
 		//hmr options &noInfo=true&reload=true
 	},
-
-	//entry: ['webpack/hot/dev-server', 'webpack-hot-middleware/client', './src/js'],
 
 	output: {
 		filename: '[name].js'
