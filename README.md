@@ -3,7 +3,7 @@
 
 For the development and maintenance of web sites and web apps alike. Data-driven single-page apps or conventional multi-page apps. It's really not fussy. Stack based on gulp + webpack(although neither are deeply coupled in this implementation), embellished with React and Vue, SASS and Pug for a (hopefully) less unopinionated, untethered, 'freestyle' development workflow.
 
-I built this stack for the robustness of my needs and as a middle finger to modern trends to dumb things down to the extent they become inflexible to use and people dare not question the status quo - want react? run `create-react-app`, want vue? run `vue-cli`, want angular run `angular-cli`. These are all brilliant, simple, easy and convenient boilerplates. Nevertheless the one-size fits all scenario simply isn't real-world (incidentally I did have Angular serviced in this stack at one point but removed it to negate the overhead of Typescript support - jury is still out to on it's inclusion).
+I built this stack for the robustness of my needs and as a middle finger to modern trends to dumb things down to the extent they become inflexible to use and people dare not question the status quo - want react? run `create-react-app`, want vue? run `vue-cli`, want angular run `angular-cli`. These are all brilliant, simple, easy and convenient boilerplates. Nevertheless the one-size fits all scenario simply isn't real-world and nor is it scalable(incidentally I did have Angular serviced in this stack at one point but removed it to negate the overhead of Typescript support - jury is still out to on it's inclusion).
 
 ## Getting Started
 ------
