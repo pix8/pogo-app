@@ -8,7 +8,7 @@ import React, { Component } from "react"
 import ReactDOM from "react-dom"
 import Month from './Month'
 
-import CalendarService, {STATICS} from '../../../js/api/api.Calendar.es6'
+import CalendarService, {STATICS} from '@pix8/calendar'
 import Utils from '../../../js/pix8/pix8.Utils'
 
 

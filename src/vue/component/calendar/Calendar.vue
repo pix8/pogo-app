@@ -24,7 +24,7 @@ import Moment from 'moment'
 
 import Day from './Day'
 
-import CalendarService, {STATICS} from '../../../js/api/api.Calendar.es6'
+import CalendarService, {STATICS} from '@pix8/calendar'
 
 
 console.log("-- 1. VUE:CALENDAR component initialised -- ");

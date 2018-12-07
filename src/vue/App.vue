@@ -5,7 +5,7 @@
 
 <script>
 
-import Calendar from './component/calendar/Calendar'
+import Calendar from './component/Calendar/Calendar'
 
 
 console.log("-- 0. VUE APP(root) initialised -- ");

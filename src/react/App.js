@@ -1,7 +1,7 @@
 'use strict';
 
 import React, { Component } from "react"
-import Calendar from "./component/calendar/Calendar"
+import Calendar from "./component/Calendar/Calendar"
 import Foobar from "./component/Foobar/Foobar.component"
 
 
