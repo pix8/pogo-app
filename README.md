@@ -1,9 +1,11 @@
 # Pogo App Stack
 
-Boilerplate tooling for the development and maintenance of web sites and web apps alike. Data-driven single-page apps or conventional multi-page apps. It's really not fussy. Stack based on gulp + webpack(although neither are deeply coupled in this implementation), embellished with React and Vue, SASS and Pug for a (hopefully) less unopinionated, untethered, 'freestyle' development workflow.
+WIP
+
+Boilerplate tooling for the development and maintenance of web sites and web apps alike. Data-driven single-page apps or conventional multi-page apps. It's really not fussy. Stack based on gulp + webpack(although neither are deeply coupled in this implementation), embellished with React and Vue, SASS and Pug for a (hopefully)unopinionated, untethered and 'freestyle' development workflow.
 
 ## Background
-I built this stack for the robustness of my needs and as a middle finger to modern trends to dumb things down to the extent they become inflexible to use and people dare not question the status quo blissful in their ignorance - want react? run `create-react-app`, want vue? run `vue-cli`, want angular run `angular-cli`. Don't get me wrong. These are all brilliant, simple, easy and convenient boilerplates. I'm all for KISS and any goodness that can save me time but nevertheless the one-size fits all scenario simply isn't real-world and alas nor is it scalable(incidentally I did have Angular serviced in this stack at one point but removed it to negate the overhead of Typescript support - jury is still out on it's inclusion). Now you can argue that this is all stupid, needless and pointless. I'd agree. You would never ever want a cocktail of redundant libraries seeding a project however please bear with, there is method to my madness. You see I'm a Front-end developer, probably much like yourself, this means I am a proverbial Jack-of-all-trades. Worse still. I am a freelancer. This means I have to be flexible to my clients needs and align to the established technologies of their internal teams. Often I have to do this seamlessly whilst hitting the ground running with zero allowance for familiarisation or laying the ground work for new features. Also very often than not I encounter varying standards of practise. I use this tooling to level the playing field. It is my developer's Swiss Army Knife ;) ...Besides this rig also encourages playful experimentation and learning by not nailing you to a particular framework, library or mantra. Enjoy!
+I built this stack for the robustness of my needs and as a middle finger to modern trends to dumb things down to the extent they become inflexible to use and people dare not question the status quo blissful in their ignorance - want react? run `create-react-app`, want vue? run `vue-cli`, want angular run `angular-cli`. Don't get me wrong. These are all brilliant, simple, easy and convenient boilerplates. I'm all for KISS and any goodness that can save me time but nevertheless the one-size fits all scenario simply isn't real-world and alas nor is it scalable(incidentally I did have Angular serviced in this stack at one point but removed it to negate the overhead of Typescript support - jury is still out on it's inclusion). Now you can argue that this is all stupid, needless and pointless. I'd agree. You would never ever want a cocktail of redundant libraries seeding a project however please bear with me, there is method to my madness. You see I'm a front-end developer, probably much like yourself, this means I am a proverbial Jack-of-all-trades. Worse still. I am a freelancer. This means I have to be flexible to my clients needs and align to the established technologies of their internal teams. Often I have to do this seamlessly whilst hitting the ground running with zero allowance for familiarisation or laying the ground work for new features. Also very often than not I encounter varying standards of practise. I use this tooling to level the playing field. It is my developer's Swiss Army Knife ;) ...Besides this rig also encourages a bit of playful experimentation and learning by not nailing you to a particular mode, framework, library or mantra. Enjoy and most of have fun!
 
 ## Getting Started
 
@@ -11,12 +13,12 @@ I built this stack for the robustness of my needs and as a middle finger to mode
 
 Usual routine.
 
-```javascript
-git clone git@github.com:pix8/pogo-app.git my-project
-cd my-project
-rm -rf .git
-npm install
-npm start
+```sh
+$ git clone git@github.com:pix8/pogo-app.git my-project
+$ cd my-project
+$ rm -rf .git
+$ npm install
+$ npm start
 ```
 
 ## Structure
